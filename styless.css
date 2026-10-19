@@ -1,0 +1,106 @@
+body{
+    font-family: "calibri";
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* header */
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    padding: 10px;
+    font-weight: bold;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 1%;
+}
+li{
+    background-color: #4979b8;
+    padding: 8px;
+}
+
+#inicio{
+    background-color: #74a883;
+    color: white;
+}
+#colores{
+    background-color: #f7e4ab;
+}
+
+
+/* aprendiendo css */
+
+#bienvenido{
+    display: flex;
+    background-color: lightgreen;
+    color: black;
+    padding: 25px;
+    text-align: center;
+    border-radius: 15px;
+}
+.sobremi-izq{
+    width: 100%;
+}
+#bienvenido h1{
+    font-size: 20px;
+}
+#bienvenido button{
+    padding: 10px 10px;
+    background-color: rgb(9, 167, 9);
+    color: white;
+    border: none;
+}
+
+
+/* sobre mi */
+#sobre-mi{
+    text-align: center;
+    background-color: #dae6f5;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+
+/*  mis cajas */
+
+#cajas{
+    text-align: center;
+    background-color: #f5ecd6;
+    padding: 20px;
+    border-radius: 15px;
+}
+.cajas{
+    padding: 12px;
+}
+.caja-1{ background-color: #af9598; border-radius: 15px;}
+.caja-2{ background-color: #b5c0ce; border-radius: 15px;}
+#caja-3{ background-color: #b2c9b5; border-radius: 15px;}
+
+/* seccion contacto */
+#contacto {
+    text-align: center;
+    background-color: #ccc5e0;
+    padding: 20px;
+}
+.btn-contacto{
+    background-color: #463c8d;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+}
+
+/* footer */
+#footer {
+    background-color: #384249;
+    text-align: center;
+    color: white;
+    padding: 12px;
+    font-size: 14px;
+}
