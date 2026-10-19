@@ -10,6 +10,7 @@ header{
     display: flex;
     align-items: center;
     padding: 10px;
+    flex-direction: column;
 }
 .logo{
     font-size: 30px;
@@ -20,6 +21,7 @@ ul{
     display: flex;
     list-style: none;
     padding: 1%;
+    gap: 10px;
 }
 li{
     background-color: #4979b8;
